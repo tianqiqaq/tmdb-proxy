@@ -6,7 +6,7 @@ export default {
       'Access-Control-Allow-Headers': '*',
     }
 
-    // 处理预检请求
+    // 处理预检请求.
     if (request.method === 'OPTIONS') {
       return new Response(null, { headers: corsHeaders })
     }
