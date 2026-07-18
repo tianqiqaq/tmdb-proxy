@@ -1,4 +1,4 @@
-# TMDB 代理 Worker
+# TMDB 代理 Worker.
 
 一个基于 Cloudflare Workers 的 TMDB API 代理服务，用于解决影视库刮削工具的 TMDB 访问问题。支持完整的 API 代理和图片代理功能。
 
