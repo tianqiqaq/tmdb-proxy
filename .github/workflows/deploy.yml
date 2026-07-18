@@ -12,6 +12,7 @@ on:
 jobs:
   deploy:  # job ID 必须使用英文
     runs-on: ubuntu-latest
+    environment: TMDB
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     
     steps:
